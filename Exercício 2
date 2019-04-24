@@ -1,0 +1,2 @@
+a = float(input("digite um valor em metros: "))
+print(a * 1000, "mm")
