@@ -1,0 +1,8 @@
+## exercicio 3 ##
+
+dias = float(input("digite a quantidade de dias: "))
+horas = float(input("digite a quantidade de horas: "))
+min = float(input("digite a quantidade de min: "))
+seg = float(input("digite a quantidade de seg: "))
+total = (dias * 24 * 60 * 60) + (horas * 60 * 60) + (min * 60) + seg
+print("a quantidade total em seg é de: ", total)
