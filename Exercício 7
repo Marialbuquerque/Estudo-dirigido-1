@@ -1,0 +1,13 @@
+## exercicio 6 ##
+
+distancia = float(input("digite a distancia em km: "))
+velocidade = float(input("digite a velocidade: "))
+
+velocidade_media = distancia / velocidade
+print("a velocidade média esperada é de:", velocidade_media)
+
+## exercicio 7 ##
+
+Celsius = float(input("digite a temperatura: "))
+Fahrenheit = (9*Celsius/5 + 32)
+print("a temperatua em Fahrenheit é de: F", Fahrenheit)
