@@ -1,0 +1,7 @@
+## exercicio 8 ##
+
+quilometros = float(input("digite a quantidade de km percorridos: "))
+dias = float(input("digite o numero de dias em que o carro foi alugado: "))
+
+aluguel = quilometros*0.15 + dias*60
+print("o valor do aluguel é de: R$", aluguel)
