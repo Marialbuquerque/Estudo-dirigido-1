@@ -1,0 +1,9 @@
+## exercicio 4 ##
+import math
+salario = float(input("digite seu salário: "))
+percentual = float(input("digite a porcentagem do aumento: "))
+
+novo_Salario = salario + ((salario*percentual)/100)
+aumento = novo_salario + salario
+print("aumento de: R$", aumento)
+print("novo salario: R$", novo_salario)
