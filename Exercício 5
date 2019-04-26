@@ -1,0 +1,9 @@
+## exercicio 5 ##
+
+preço = float(input("digite o preço: "))
+percentual = float(input("digite o percentual: "))
+
+novo_preço = preço - ((preço*percentual)/100)
+desconto = novo_preço - preço
+print(" o desconto é de: ", desconto)
+print("o novo preço é de: ", novo_preço)
