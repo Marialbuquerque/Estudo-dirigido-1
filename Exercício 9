@@ -1,0 +1,8 @@
+## exercicio 9 ##
+
+quantidade_dias = float(input("digite a quantidade de cigarros fumados por dia: "))
+quantidade_anos = float(input("digite a quantidade de anos fumando: "))
+
+total_cigarros = (quantidade_anos * 365) + quantidade_dias
+dias_perdidos = ((quantidade_dias * 10)/24)
+print("você perderá: dias por fumar", dias_perdidos)
